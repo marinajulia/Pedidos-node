@@ -10,7 +10,7 @@ const server = http.createServer(app);
 server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
-console.log('Api rodando na porta 3000 ' + port);
+console.log('Api rodando na porta ' + port);
 
 function normalizePort(value) {
     const port = parseInt(value, 10);
